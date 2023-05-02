@@ -1,0 +1,25 @@
+---
+id: versions
+title: 'IQ Server Versions'
+tags: [Versions, Archive ]
+---
+
+import iq_versions from '@site/iq_versions.json'
+
+
+<VersionList >
+   <ul>
+      <li>
+         <a href='../../iq/next/intro'>Next version</a>
+      </li>
+      {iq_versions.map((e,i)  =>(
+         <li>
+            <a href={'../'+ (i>0? e + '/' : '') +'intro'}>{'Version '+ e}</a>
+        </li>))}
+</ul>
+</VersionList>
+
+
+# Woah! 
+
+It's *Markdown*!
