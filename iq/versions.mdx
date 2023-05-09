@@ -7,19 +7,25 @@ tags: [Versions, Archive ]
 import iq_versions from '@site/iq_versions.json'
 
 
+ 
 <VersionList >
-   <ul>
-      <li>
-         <a href='../../iq/next/intro'>Next version</a>
-      </li>
-      {iq_versions.map((e,i)  =>(
-         <li>
-            <a href={'../'+ (i>0? e + '/' : '') +'intro'}>{'Version '+ e}</a>
-        </li>))}
-</ul>
+{/*
+ <ul>
+<li>
+<a href='../../iq/next/intro'>Next version</a>
+ </li>
+ {iq_versions.map((e,i) =>{
+console.log(e)
+        return (
+         <li key={i}>
+         <a href={'../'+ (i>0? e + '/' : '') +'intro'}>{'Version '+ e}</a>
+         </li>)})}         
+</ul> 
+*/}
 </VersionList>
 
-
 # Woah! 
+
+test
 
 It's *Markdown*!
