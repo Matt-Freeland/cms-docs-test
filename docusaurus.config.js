@@ -103,7 +103,7 @@ const config = {
                 {
                     type: 'docsVersionDropdown',
                     docsPluginId: 'iq',
-                    dropdownItemsBefore: [{to: '/iq_versions', label: 'IQ Versions'}],
+                    dropdownItemsBefore: [{to: '/iq/versions', label: 'IQ Versions'}],
                 },
                 {
                     type: 'doc',
